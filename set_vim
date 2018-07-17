@@ -1,0 +1,7 @@
+# copy .vimrc
+cp .vimrc ~/
+
+# git clone Vundle.vim
+mkdir ~/.vim
+cd ~/.vim
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
