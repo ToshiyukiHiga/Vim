@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'https://github.com/scrooloose/nerdtree.git'
+Plugin 'scrooloose/nerdtree'
 
 " 画面表示の設定
 
