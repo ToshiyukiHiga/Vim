@@ -6,7 +6,9 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+
 Plugin 'https://github.com/reireias/vim-cheatsheet.git'
+let g:cheatsheet#cheat_file = '~/cheet_sheet.txt'
 
 call vundle#end()
 
