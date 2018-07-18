@@ -6,6 +6,9 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'https://github.com/reireias/vim-cheatsheet.git'
+
+call vundle#end()
 
 " 画面表示の設定
 
