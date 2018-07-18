@@ -6,12 +6,18 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-
 Plugin 'https://github.com/reireias/vim-cheatsheet.git'
+Plugin 'https://github.com/vim-scripts/AutoComplPop'
 call vundle#end()
 
 " Cheat　Sheetのパス設定
 let g:cheatsheet#cheat_file = '~/vim_cheat_sheet.txt'
+
+" PHPの設定
+autocmd FileType php,ctp :set dictionary=~/.vim/dict/php.dict
+autocmd FileType php set makeprg=php\ -l\ %
+autocmd BufWritePost *.php silent make | if len(getqflist()) != 1 | copen | else | cclose | endif
+
 
 " 画面表示の設定
 
