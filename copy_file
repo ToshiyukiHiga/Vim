@@ -1,2 +1,3 @@
 # copy .vimrc
 cp .vimrc ~/
+cp .cheat_sheet.txt ~/
