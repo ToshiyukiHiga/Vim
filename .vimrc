@@ -8,9 +8,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 
 Plugin 'https://github.com/reireias/vim-cheatsheet.git'
-let g:cheatsheet#cheat_file = '~/cheat_sheet.txt'
-
 call vundle#end()
+
+" Cheat　Sheetのパス設定
+let g:cheatsheet#cheat_file = '~/vim_cheat_sheet.txt'
 
 " 画面表示の設定
 
