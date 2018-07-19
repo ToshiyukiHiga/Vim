@@ -1,6 +1,6 @@
 # copy .vimrc
 cp .vimrc ~/
-cp vim_cheat_sheet.txt
+cp vim_cheat_sheet.txt ~/.vim/
 
 # git clone Vundle.vim
 mkdir ~/.vim
