@@ -11,7 +11,7 @@ Plugin 'https://github.com/vim-scripts/AutoComplPop'
 call vundle#end()
 
 " Cheat　Sheetのパス設定
-let g:cheatsheet#cheat_file = '~/vim_cheat_sheet.txt'
+let g:cheatsheet#cheat_file = '~/.vim/vim_cheat_sheet.txt'
 
 " PHPの設定
 autocmd FileType php,ctp :set dictionary=~/.vim/dict/php.dict
