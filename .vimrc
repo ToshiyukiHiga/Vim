@@ -89,3 +89,6 @@ set history=10000
 "ビープ音すべてを無効にする
 set visualbell t_vb=
 set noerrorbells "エラーメッセージの表示時にビープを鳴らさない
+
+" シンタックスを常に有効にする
+syntax enable
