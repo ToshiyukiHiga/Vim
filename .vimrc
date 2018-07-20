@@ -8,6 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/reireias/vim-cheatsheet.git'
 Plugin 'https://github.com/vim-scripts/AutoComplPop'
+Plugin 'https://github.com/tomasr/molokai.git'
 call vundle#end()
 
 " Cheat　Sheetのパス設定
@@ -93,3 +94,8 @@ set noerrorbells "エラーメッセージの表示時にビープを鳴らさ�
 
 " シンタックスを常に有効にする
 syntax enable
+
+" Plugin molokai　の設定
+let g:molokai_original = 1
+let g:rehash256 = 1
+
