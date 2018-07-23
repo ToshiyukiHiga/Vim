@@ -70,8 +70,7 @@ set smartindent   " 改行時に入力された行の末尾に合わせて次の
 " 動作環境との統合関連の設定
 
 " OSのクリップボードをレジスタ指定無しで Yank, Put 出来るようにする
-set clipboard&
-set clipboard^=unnamedplus
+set clipboard=unnamed,autoselect
 " マウスの入力を受け付ける
 set mouse=a
 " Windows でもパスの区切り文字を / にする
